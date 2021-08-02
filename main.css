@@ -1,16 +1,58 @@
+/* COMMON */
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+
+
 /* HEADER */
-.header {
+header {
+  
+}
+header .inner {
+  width: 1100px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .logo {
 
 }
-.header .inner {
 
+
+/* bw-head */
+.bw-head {
+  background-color: royalblue;
 }
-.header .inner a.logo {
-
+.bw-head .inner {
+  width: 1100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.header ul.sub-menu {
-
+.bw-head .inner ul.menu {
+  display: flex;
+  justify-content: center;
 }
-.header ul.sub-menu li.menu {
-
+.bw-head .inner ul.menu li {
+  
+}
+.bw-head .inner ul.menu li a {
+  background-color: white;
+  display: block;
+  padding: 11px 16px;
+  font-size: 18px;
+  margin: 0 80px;
 }
